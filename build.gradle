@@ -7,7 +7,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.6.3'
+		classpath 'com.android.tools.build:gradle:4.1.0'
     }
 }
 
@@ -28,8 +28,8 @@ ext {
 	javaSourceCompatibility = JavaVersion.VERSION_1_8
 	javaTargetCompatibility = JavaVersion.VERSION_1_8
 
-    versionBuildTool = "29.0.3"
-   	versionCompiler = 29
+    versionBuildTool = "30.0.3"
+   	versionCompiler = 30
    	versionTarget = 28
 
 	// variable that can be referenced to keep support libs consistent
